@@ -1,11 +1,11 @@
 import React from 'react';
+import { BugButton } from 'app/providers/ErrorBoundary';
 
-const HomePage = () => {
-    return (
-        <div>
-            HomePage
-        </div>
-    );
-};
+const HomePage = () => (
+    <div>
+        <BugButton />
+        HomePage
+    </div>
+);
 
 export default HomePage;

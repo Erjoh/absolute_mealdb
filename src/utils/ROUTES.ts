@@ -1,4 +1,4 @@
 export const ROUTES = {
     HOME_PAGE: '/',
-    ABOUT_PAGE: '/about'
-}
+    ABOUT_PAGE: '/about',
+};
