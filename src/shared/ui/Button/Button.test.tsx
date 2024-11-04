@@ -1,9 +1,9 @@
-import {render, screen} from "@testing-library/react";
-import {Button} from "shared/ui/Button/Button";
+import { render, screen } from '@testing-library/react';
+import { Sidebar } from 'widgets/Sidebar';
 
-describe('classNames', () => {
-    test('test', () => {
-        render(<Button>TEST</Button>);
-        expect(screen.getByText('TEST')).toBeInTheDocument()
+describe('Sidebar', () => {
+    test('Test render', () => {
+        render(<Sidebar />);
+        expect(screen.getByText('TEST')).toBeInTheDocument();
     });
 });
